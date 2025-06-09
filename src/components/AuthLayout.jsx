@@ -24,7 +24,7 @@ useEffect(()=>{
 
 
   return (   
-        loader ? <div>Loading...</div> : {children}
+        loader ? <div>Loading...</div> : <>{children} </>
   )
 
 
